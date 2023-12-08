@@ -1,0 +1,143 @@
+
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('https://previews.123rf.com/images/azlala/azlala1711/azlala171100681/90096763-patrones-sin-fisuras-con-huesos-y-huellas-ilustración-vectorial.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto;
+            max-width: 600px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Formulario de Adopción de Mascotas</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <h1>Formulario de Adopción de Mascotas</h1>
+
+        <label for="fecha">Fecha de la solicitud:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <p><strong>Nota:</strong> Por favor, completa toda la información del formulario siguiente. De haber información incompleta retrasará el proceso de adopción. Completar el formulario de la aplicación no garantiza que "Fundación patitas generation" ponga a su cargo alguna de las mascotas del refugio. La finalización de este cuestionario autoriza a "Fundación patitas generation" a verificar cualquier información contenida, incluyendo la verificación de los reportes médicos de cualquier presente u otras mascotas tratadas por los veterinarios listados. Completar el formulario de este proceso de adopción es un indicativo de que has leído, entendido y aceptado cumplir con nuestro Acuerdo de adopción de animales y que la información contenida en esta solicitud es precisa y no engañosa de ninguna manera. Todas las adopciones son a la entera discreción de "Fundación patitas generation".</p>
+
+        <h2>Datos Personales</h2>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="edad">Edad:</label>
+        <input min="1" type="number" id="edad" name="edad" required>
+
+        <label for="ocupacion">Ocupación:</label>
+        <input type="text" id="ocupacion" name="ocupacion" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="celular">Teléfono celular:</label>
+        <input type="tel" id="celular" name="celular" required>
+
+        <label for="local">Teléfono local:</label>
+        <input type="tel" id="local" name="local">
+
+        <label for="estudios">Nivel de Estudios:</label>
+        <select id="estudios" name="estudios" required>
+            <option value="">-- Selecciona --</option>
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="preparatoria">Preparatoria</option>
+            <option value="universidad">Universidad</option>
+        </select>
+
+        <h2>Referencias</h2>
+        <!-- Referencia Personal -->
+        <label for="refPersonal">Referencia Personal:</label>
+        <input type="text" id="refPersonal" name="refPersonal" required>
+
+        <label for="telRefPersonal">Teléfono:</label>
+        <input type="tel" id="telRefPersonal" name="telRefPersonal" required>
+
+        <label for="relacionRefPersonal">Relación:</label>
+        <input type="text" id="relacionRefPersonal" name="relacionRefPersonal" required>
+
+        <!-- Referencia Familiar -->
+        <label for="refFamiliar">Referencia Familiar:</label>
+        <input type="text" id="refFamiliar" name="refFamiliar" required>
+
+        <label for="telRefFamiliar">Teléfono:</label>
+        <input type="tel" id="telRefFamiliar" name="telRefFamiliar" required>
+
+        <label for="parentescoRefFamiliar">Parentesco:</label>
+        <input type="text" id="parentescoRefFamiliar" name="parentescoRefFamiliar" required>
+
+        <h2>Domicilio</h2>
+        <label for="mascotasActualmente">¿Cuenta con otras mascotas actualmente?</label>
+        <select id="mascotasActualmente" name="mascotasActualmente" required>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+
+        <div id="infoMascotas">
+            <label for="cantidadMascotas">¿Cuántas mascotas tienes?</label>
+            <input min="1" type="number" id="cantidadMascotas" name="cantidadMascotas">
+
+            <label for="tipoMascotas">¿Qué tipo de mascotas son?</label>
+            <input type="text" id="tipoMascotas" name="tipoMascotas">
+
+            <label for="tiempoMascotas">¿Hace cuánto tiempo tienes dichas mascotas?</label>
+            <input type="text" id="tiempoMascotas" name="tiempoMascotas">
+
+            <label for="pruebaGatos">En caso de querer adoptar un gato y ya tener más gatos, ¿Cuentan con prueba de VLFe/FeLV negativa?</label>
+            <select id="pruebaGatos" name="pruebaGatos">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <label for="direccion">Dirección completa:</label>
+        <textarea id="direccion" name="direccion" required></textarea>
+
+        <label for="tipoDomicilio">Tipo de domicilio:</label>
+        <select id="tipoDomicilio" name="tipoDomicilio" required>
+            <option value="Departamento">Departamento</option>
+            <option value="Casa Propia con jardín">Casa Propia con jardín</option>
+            <option value="Finca">Finca</option>
+        </select>
+
+        <label for="EspacioDestinado">Espacio destinado para tu mascota:</label>
+        <select id="EspacioDestinado" name="EspacioDestinado" required>
+            <option value="Patio">Patio</option>
+            <option value="Jardín">Jardín</option>
+            <option value="CuartoInterior">Interior del domicilio</option>
+        </select>

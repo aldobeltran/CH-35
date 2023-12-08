@@ -1,0 +1,53 @@
+:root {
+    --main-color: white;
+  }
+body {
+    margin: 0; /*Elimnina el margin que le añade por defecto el navegador a nuestro body*/
+    background: lightgray;
+  }
+  /* Ver apartado 4.5.Variables css */
+  :root {
+    --main-color: white;
+  }
+  .bg {
+    text-align: center;
+    padding: 10px;
+    height: 100vh; /* La caja ocupará el 100% del alto del navegador*/
+    background-size: cover; /* Ajusta la proporoción de la imagen a la caja*/
+    background-position: center;
+    box-sizing: border-box; /* Definimos si la altura de la caja será hasta el borde. Es decir, si habrá padding o no*/
+  
+    /* -- modo flexbox -- */
+    display: flex; /*Las cajas de dentro se posicionarán según flexbox*/
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* -- modo flexbox -- */
+  
+    /* -- blur efect -- */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+  .bg-text {
+    color: var(--main-color);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    /* Ver apartado 4.4.Google fonts */
+    font-family: RubikMonoOne;
+  }
+  /* El background es una imagen previamente descargada en nuestra carpeta images del proyecto */
+  .home {
+    background-image: url("./images/bgImage.jpg");
+  }
+  .bg-text {
+    /* (...) */
+    font-family: RubikMonoOne;
+  }
