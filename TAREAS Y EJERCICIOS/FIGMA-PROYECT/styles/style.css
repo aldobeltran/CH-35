@@ -1,7 +1,250 @@
-div{
-    width: 120px;
-    height: 60px;
-    
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 60px gray;
+body {
+    width: 850px;
+    height: 1200px;
+    background: linear-gradient( to right, rgba(180, 146, 253, 0.30) 1%, rgba(173, 78, 245, 0.95) 60%);/*Falta arreglar*/
+
 }
+
+#fondob {
+    width: 100%;
+    height: 1220px;
+    right: 70px;
+    background: white;
+}
+
+
+
+#dev{
+    width: 407px;
+    height: 505px;
+    left: 970px;
+    top: 259px;
+    position: absolute;
+}
+
+#boxcreate {
+    width: 567px;
+    height: 734px;
+    left: 153px;
+    top: 160px;
+    position:relative;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 3px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+#create {
+    width: 400px;
+    height: 57px;
+    left: 216px;
+    top: 217px;
+    position: absolute;
+    color: #1D1D1D;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+#imggoogle {
+    width: 40px;
+    height: 41px;
+    left: 232px;
+    top: 311px;
+    position: absolute;
+
+}
+
+#useg {
+    width: 140px;
+    height: 27px;
+    left: 281px;
+    top: 318px;
+    position: absolute;
+    color: #1D1D1D;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 500;
+    
+}
+
+#imgapple {
+    width: 40px;
+    height: 47.62px;
+    left: 485px;
+    top: 304px;
+    position: absolute;
+}
+
+#useapple{
+    width: 205px;
+    height: 32px;
+    left: 535px;
+    top: 318px;
+    position: absolute;
+    color: #1D1D1D;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+#buttomg{
+    width: 205px;
+    height: 70px;
+    left: 216px;
+    top: 296px;
+    position: absolute;
+    background: rgba(244, 241, 255, 0);
+    border-radius: 12px;
+    border: 1px #1D1D1D solid;
+}
+
+#buttoma {
+    width: 205px;
+    height: 70px;
+    left: 463px;
+    top: 296px;
+    position: absolute;
+    background: rgba(244, 241, 255, 0);
+    border-radius: 12px;
+    border: 1px #1D1D1D solid;
+
+}
+
+#email {
+    width: 205px;
+    height: 32px;
+    left: 216px;
+    top: 426px;
+    position: absolute;
+    color: #1D1D1D;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 500;
+}
+
+#boxe{
+    width: 452px;
+    height: 67px;
+    left: 216px;
+    top: 458px;
+    position: absolute;
+    border-radius: 12px;
+    border: 1px #1D1D1D solid;
+}
+
+#placehe {
+    width: 199px;
+    height: 37px;
+    left: 243px;
+    top: 473px;
+    position: absolute;
+    color: #9f919e;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+#password{
+    width: 205px;
+    height: 32px;
+    left: 216px;
+    top: 547px;
+    position: absolute;
+    color: #1D1D1D;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+#boxp {
+    width: 452px;
+    height: 67px;
+    left: 216px;
+    top: 579px;
+    position: absolute;
+    border-radius: 12px;
+    border: 1px #1D1D1D solid;
+}
+
+#placehp {
+    width: 221px;
+    height: 42px;
+    left: 243px;
+    top: 591px;
+    position: absolute;
+    color: #9f919e;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+#buttonlogin {
+    width: 452px;
+    height: 67px;
+    left: 216px;
+    top: 697px;
+    position: absolute;
+    background: #8f37d3;
+    border-radius: 12px;
+}
+#or {
+    width: 54px;
+    height: 44px;
+    left: 431px;
+    top: 370px;
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+#leftor{
+    width: 205px;
+    height: 0px;
+    left: 216px;
+    top: 391px;
+    position: absolute;
+    border: 1px #6667B0 solid;
+}
+#rightor{
+    width: 205px;
+    height: 0px;
+    left: 463px;
+    top: 391px;
+    position: absolute;
+    border: 1px #6667B0 solid;
+}
+#login {
+    width: 380px;
+    height: 60px;
+    left: 242px;
+    top: 710px;
+    position: absolute;
+    text-align: center;
+    color: #F4F1FF;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+#Already {
+    width: 321px;
+    height: 47px;
+    left: 353px;
+    top: 773px;
+    position: absolute;
+    text-align: right;
+    color: #9d28e1;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 700;
+}
+
+
+
+
+
