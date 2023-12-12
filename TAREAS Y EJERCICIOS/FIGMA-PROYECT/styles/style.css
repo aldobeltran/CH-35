@@ -2,7 +2,13 @@ body {
     width: 850px;
     height: 1200px;
     background: linear-gradient( to right, rgba(180, 146, 253, 0.30) 1%, rgba(173, 78, 245, 0.95) 60%);/*Falta arreglar*/
+    color: #9f919e;
+}
 
+input{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 500;;
 }
 
 #fondob {
@@ -28,8 +34,8 @@ body {
     left: 153px;
     top: 160px;
     position:relative;
-    background: rgb(255, 255, 255);
-    box-shadow: 0px 3px 20px 20px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 252, 252);
+    box-shadow: 2px 3px 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 #create {
@@ -64,6 +70,7 @@ body {
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
     font-weight: 500;
+    text-decoration: none;
     
 }
 
@@ -85,10 +92,10 @@ body {
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
     font-weight: 500;
-    word-wrap: break-word;
+    text-decoration: none;
 }
 
-#buttomg{
+#btn-google{
     width: 205px;
     height: 70px;
     left: 216px;
@@ -99,7 +106,7 @@ body {
     border: 1px #1D1D1D solid;
 }
 
-#buttoma {
+#buttona {
     width: 205px;
     height: 70px;
     left: 463px;
@@ -133,19 +140,6 @@ body {
     border: 1px #1D1D1D solid;
 }
 
-#placehe {
-    width: 199px;
-    height: 37px;
-    left: 243px;
-    top: 473px;
-    position: absolute;
-    color: #9f919e;
-    font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
-    font-weight: 500;
-    word-wrap: break-word;
-}
-
 #password{
     width: 205px;
     height: 32px;
@@ -167,19 +161,6 @@ body {
     position: absolute;
     border-radius: 12px;
     border: 1px #1D1D1D solid;
-}
-
-#placehp {
-    width: 221px;
-    height: 42px;
-    left: 243px;
-    top: 591px;
-    position: absolute;
-    color: #9f919e;
-    font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
-    font-weight: 500;
-    word-wrap: break-word;
 }
 
 #buttonlogin {
@@ -229,6 +210,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
     font-weight: 700;
     word-wrap: break-word;
+    text-decoration: none;
 }
 
 #Already {
@@ -242,6 +224,7 @@ body {
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
     font-weight: 700;
+    text-decoration: none;
 }
 
 
