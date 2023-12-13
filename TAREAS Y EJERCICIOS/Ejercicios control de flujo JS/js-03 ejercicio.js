@@ -152,23 +152,22 @@ console.log(cajeroATM());
  * 
  */
 
-function CurrencyConverter(opcion)
-{
-    let opcion = prompt("Ingrese su cantidad en pesosMx: ");
+function convertirDivisas(opcion) {
+    let opcion = prompt("Ingrese una opción: ");
     switch (opcion) {
         case 1:
-            return (`en francos es `(opcion * 19));
-        case 5:
-            return "A dolares";
+            return "A dolar estadounidense";
         case 2:
             return "A euros";
         case 3:
             return "A yen japones";
-        case 4:"A libre esterlina";
-            break
-        
+        case 4:
+            return "A libre esterlina";
+        case 5:
+            return "A franco suizo";
         default:
             return "Opcion incorrecta";
     }
 }
 
+console.log(convertirDivisas(opcion));
