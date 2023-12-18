@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Operadores" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <!--
+        *Vamos a hacer 5 elementos : h1 titles,h2 titles, h3 titles,h3 titles y div#dif
+    -->
+    <h1 class="title" id="title1">Dom Manipulation</h1>
+    <h2 class="title" id="title2">JavaScript - 06</h2>
+    <h3 class="title" id="title3">El Dom es una API para manipular el html</h3>
+    <h3 class="title" id="title4">Usa nodos para acceder, modificar, crear y eliminacion</h3>
+
+    <div id="dif"></div>
+    <hr>
+    <br>
+        <a href="./pages/App.html">--Vamos a App.html --</a>
+    <hr>
+<!--Button hidden-->
+<button id="card-btn">Mostrar / Ocultar elementos</button>
+<!--Card hidden-->
+<div class="container" id="container-div">
+    <div class="main container">
+<h2>Events</h2>
+<!--Forms-->
+<label for="name">Username</label>
+<input type="text" name="name" id="name" placeholder="Escribe tu nombre de usuario"></input>
+
+<button id="btn-main">Actualizar perfil</button>
+    </div >
+<div class="profile">
+<h3 id="username"></h3>
+<h4 id="age"></h4>
+<p id="email"></p>
+<ul id="fav-films"></ul>
+
+</div>
+<br><br><br><br>
+</div>
+
+    <script src="./src/JS-06.js"></script>
+    <script src="./src/button.js"></script>
+    <script src="./src/card.js"></script>
+</body>
+</html>
