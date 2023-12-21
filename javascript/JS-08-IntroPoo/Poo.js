@@ -153,12 +153,46 @@ verificarContraseña(contraseña){
 //*=======Abstraccion no es nada mas que traer objetos del mundo real y poder aplicarlos a la programacion mediante clases, metodos, constructores y objetos.
 //*Los objetos de tipo Json es un formato de intercambio de datos ligero, accesible, estructurado, manipulable (DOM) y que nos brindan una mejor comunicacion entre el cliente y el servidor. Esto gracias a que son mas flexibles y generalmente se ejecutan con fetch
 
-    let objetoJson ={
-    "nombre":"juanin",
-    "apellido":"juan Harry",
+let objetoJson = {
+    "nombre": "Juanin",
+    "apellido": "Juan Harry",
     "edad": 31,
+    "email": "juanin@gnail.com",
+    "telefono": "5574980693",
+
 }
 
+
+console.log(objetoJson);
+
+let objetoLiteral = {
+    nombre: "Juanin",
+    apellido: "Juan Harry",
+    edad: 31,
+    email: "juanin@gnail.com",
+    telefono: "5574980693",
+
+}
+
+
+console.log(objetoLiteral);
+
+//*Pincipios Solid (investigar patrones de diseño)
+
+//*1- Principio de responsabilidad unica (single Responsability Principle) 
+//*Una clase de tener asignada una tarea o responsabilidad especifica y esta no deberia cambiar.
+
+//*2- Principio abierto/cerrado (open/close principe OCP)
+//*Una clase puede estar abierta a extensiones y agregar nuevas funcionalidades, pero sin generar cambios en la misma
+
+//*3- Principios de sustitucion de liskov (liskov sustitucion principio LSP)
+//*Una clase hijo puede sustituir objetos de una clase padre
+
+//*4- Principios de segregacion de interfaces (interfaces segregation Principle ISP)
+//*Delimitar los metodos que necesito y dejar fuera los innecesarios
+
+//*5- Principios de inversion de dependencias (Dependency Inversion Principle DIP)(Enfocarse en poner todos los atributos en la clase principal, se recomienda no mas de 4 clases, dependiendo el proyecto)
+//*
 
 
 //*Ejemplo con animales
@@ -185,3 +219,42 @@ const gato = new Gato();
 
 perro.sonido();  
 gato.sonido();
+
+//*Ejercicios
+/*
+*Realizar un programa que conste de una clase llamada alumno que tenga como atributos nombre y calificacion
+*Definir los metodos para inicializar sus atributos, imprimibles y mostrar un mensaje con el resultado de si la calificacion aprueba o no
+Atributos
+Nombre
+Calificacion usar constuctor
+
+metodos
+imprimir calificacion
+aprobo o no
+
+la calificacion aprobatoria es de 6
+if para evaluar la calificacion
+
+investigar el quinto principio solid
+ */
+
+class alumnos{
+    calificacion: 0;
+    alumno:"";
+
+    constructor(calificacion, alumno){
+    this.calificacion = calificacion;
+    this.alumno = alumno;
+}
+
+darCalificacion (){
+    let calificacion = 10;
+    if (calificacion < 6){
+        console.log("Aprobaste");
+    }else {
+        console.log("reprobaste");
+    }
+}
+}
+console.log("Nombre: ", this.nombre);
+let  = new alumno (darCalificacion, "Aldo");
