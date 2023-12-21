@@ -41,13 +41,9 @@ createUser(user);
  */
 
 const inputName = document.getElementById("name");
-const userName = document.getElementById("username");
-const userEmail = document.getElementById("useremail");
-const Inputemail = document.getElementById("email");
 const profileBtn = document.getElementById("btn-main");
-
+const userName = document.getElementById("username");
 
 profileBtn.addEventListener("click", () =>{
     userName.textContent = inputName.value;
-    userEmail.textContent = inputEmail.value;
-});
+})
