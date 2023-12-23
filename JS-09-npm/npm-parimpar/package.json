@@ -1,0 +1,17 @@
+{
+  "name": "npm-parimpar-aldobeltran",
+  "version": "1.0.1",
+  "description": "permite determinar si el numero es par o impar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generation",
+    "parimpar",
+    "ch35"
+  ],
+  "author": "aldobeltran",
+  "license": "ISC"
+}

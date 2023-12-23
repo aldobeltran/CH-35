@@ -1,5 +1,5 @@
 /*
-*Paradigma de progrmacion:
+*Paradigma de programacion:
 
 *-  Programacion imperativa: Se basa en instrucciones detalladas ejecutando un flujo o una secuencia determinada.
 
@@ -192,7 +192,7 @@ console.log(objetoLiteral);
 //*Delimitar los metodos que necesito y dejar fuera los innecesarios
 
 //*5- Principios de inversion de dependencias (Dependency Inversion Principle DIP)(Enfocarse en poner todos los atributos en la clase principal, se recomienda no mas de 4 clases, dependiendo el proyecto)
-//*
+//*Los modulos de alto nivel no deberian depender de los modulos de nivel inferioi si no que ambos deberian depender de abstracciones
 
 
 //*Ejemplo con animales
@@ -235,26 +235,33 @@ aprobo o no
 la calificacion aprobatoria es de 6
 if para evaluar la calificacion
 
-investigar el quinto principio solid
  */
 
-class alumnos{
-    calificacion: 0;
-    alumno:"";
+class alumno{
+    alumno= "";
+    calificacion= 0;
+    aprobado = false;
 
     constructor(calificacion, alumno){
     this.calificacion = calificacion;
-    this.alumno = alumno;
+    this.alumno = alumno
 }
 
-darCalificacion (){
-    let calificacion = 10;
-    if (calificacion < 6){
-        console.log("Aprobaste");
-    }else {
-        console.log("reprobaste");
-    }
+metodoCalificar (){
+    if (this.calificacion >= 6){
+        this.aprobado = true
+    }else this.aprobado = false
 }
+imprimirResultados(){
+
+        this.metodoCalificar();
+    if (this.aprobado === true){
+    console.log(` ${this.nombre} aprobaste, tu calificacion es de ${this.calificacion}`);
+    } else console.log(`${this.nombre} reporbaste, tu calificacion de ${this.calificacion}`);
+}   
 }
-console.log("Nombre: ", this.nombre);
-let  = new alumno (darCalificacion, "Aldo");
+let alumno1 = new alumno ("Aldo", 8);
+
+
+
+
