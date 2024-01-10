@@ -42,7 +42,7 @@ const se muestra sin cambios
 
 String: Cadena de texto ("lleva comillas")
 number: numero
-noolena: true/false
+booleano: true/false
 null: nulo
 undefinied: no esta asignado o definido
 */
@@ -166,7 +166,7 @@ console.log("Mi nombre es " + firstName + "y mi apellido es " + lastName);
 //Segunda forma de concatenar
 
 let age = 37
-console.log(`çMi nombre es ${firstName} mi apellido es ${lastName} y tengo ${age} años`);
+console.log(`Mi nombre es ${firstName} mi apellido es ${lastName} y tengo ${age} años`);
 
 /*ECMAScript 6 (ES6)
 Interpolacion de cadenas (tercera forma)
@@ -175,9 +175,9 @@ Para variables ${}
 Texto string
  */
 
-console.warn(`Precaucion, no es buena practica dejar sin punto y coma.`)
+console.warn(`Precaucion, no es buena practica dejar sin punto y coma.`);
 //console.warn(); cuarta forma
-console.error(`Status 404: Failed`)
+console.error(`Status 404: Failed`);
 //console error(); quinta forma
 
 /* Array. Se traduce como matriz o arreglo. Es un tipo de dato que pertenece a JS, en el cual se almacena una colección de elementos de manera ordenada.

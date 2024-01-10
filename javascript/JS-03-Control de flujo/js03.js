@@ -49,7 +49,7 @@ if-else-if
  * esta misma sentencia, lo que nos permitira tomar decisiones
  * mas complejas
  * 
- * Usaremos la contatenación.
+ * Usaremos la concatenación.
  * Concatenar es una elegante palabra de la programación que significa: "unir". Para unir cadenas en JavaScript el símbolo de más (+), el mismo operador que usamos para sumar números, pero en este contexto hace algo diferente.
  * 
  * Hay que tener cuidado y no realizar demasiadas anidaciones, ya que va a resultar

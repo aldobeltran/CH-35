@@ -192,7 +192,7 @@ if (esUsuarioPrime || descuento1 ){
 }
 
 /*
-*(!) Not, se utiliza el vaor de una condicion.
+*(!) Not, se utiliza el valor de una condicion.
  */
 
 let esDialibre = false;
@@ -290,3 +290,6 @@ if (siHay == true) {
         alert("No es posible hacer hotcakes sin todos los ingredientes.");
         alert("Ve a conseguirlos, CORREEEE");
     }
+
+    let x = 6 + 3 + "3";
+    console.log(x);

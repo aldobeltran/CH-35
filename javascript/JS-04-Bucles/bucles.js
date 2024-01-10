@@ -1,4 +1,4 @@
-console.log("Ahora hablamos de bucles");
+ console.log("Ahora hablamos de bucles");
 /* 
 *===== BUCLES =====
 * Iteración. Proceso de repetir una secuencia de instrucciones o acciones en un programa. Es decir, ejecutar un bloque de código muchas veces, basado en una condición o una colección de elementos.
@@ -27,7 +27,7 @@ console.log("Ahora hablamos de bucles");
  */
 
 //*Crear un programa para saber cuantos boletos vendemos para una rifa
-for (let boleto = 1; boleto <= 25; boleto++){
+for (let boleto = 1; boleto <= 25; boleto++ ){
     console.log(`Boleto # ${boleto}`);
 }
 //*Programas para vender bolos con variable global
