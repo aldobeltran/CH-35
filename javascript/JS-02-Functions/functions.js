@@ -63,3 +63,4 @@ const functionA = function (callback){
     callback();
 }
 functionA(functionB);
+
