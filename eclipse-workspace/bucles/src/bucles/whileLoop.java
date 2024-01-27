@@ -15,7 +15,7 @@ public class whileLoop {
 		 * */
 		
 		int cuenta = 0;
-		while ( cuenta < 10 ) {
+		while ( cuenta < 15 ) {
 			cuenta ++;
 			System.out.println("La cuenta es de " + cuenta);
 		}

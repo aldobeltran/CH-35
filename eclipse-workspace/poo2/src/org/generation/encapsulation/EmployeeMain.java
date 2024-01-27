@@ -1,4 +1,4 @@
-package org.generation.employee;
+package org.generation.encapsulation;
 
 public class EmployeeMain {
 	public static void main(String[]args) {
@@ -18,7 +18,8 @@ public class EmployeeMain {
 		
 		//utilizar informacion especifica de cada objeto mediantes sus propiedades
 		System.out.println(Daniel.getNombre() + " "+ Daniel.getApellido() + " ocupa el puesto de "+ Daniel.getPuesto());
-		System.out.println(Abigail.puesto + " gana $" + Abigail.salario + " pesos");
+		//Necesitamos traer la informacion mediante getters ya que los atributos se convirtieron en privados
+		System.out.println(Abigail.getPuesto() + " gana $" + Abigail.getSalario() + " pesos");
 		
 		//Actualizacion informacion mediante setter
 		Arturo.setSalario(23000.11);
